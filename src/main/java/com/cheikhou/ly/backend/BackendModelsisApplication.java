@@ -37,15 +37,15 @@ public class BackendModelsisApplication implements CommandLineRunner {
         userService.addNewRole(new Role(null,"ADMIN"));
         userService.addNewRole(new Role(null,"USER"));
 
-        userService.addNewUser(new User(null,"diop","tafa","taf","root", new ArrayList<>()));
-        userService.addNewUser(new User(null,"tall","penda","dapen","root", new ArrayList<>()));
-        userService.addNewUser(new User(null,"ba","iba","ibs","root", new ArrayList<>()));
+        userService.addNewUser(new User(null,"diop","tafa","taf","pwd", new ArrayList<>()));
+        userService.addNewUser(new User(null,"tall","penda","pen","pwd", new ArrayList<>()));
+        userService.addNewUser(new User(null,"ba","iba","ibs","pwd", new ArrayList<>()));
 
 
 
-        //userService.addRoleToUser("oussey94","ADMIN");
-        //userService.addRoleToUser("oussey94","USER");
-        //userService.addRoleToUser("safietou01","ADMIN");
+        //userService.addRoleToUser("taf","ADMIN");
+        //userService.addRoleToUser("pen","USER");
+
 
     }
 }
