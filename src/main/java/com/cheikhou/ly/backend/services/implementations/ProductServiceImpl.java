@@ -31,7 +31,7 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public Product addProduct(Product product) {
-        log.info("Ousseynou Mbodji le produit {}", product);
+        log.info("modelsis {}", product);
         return productRepository.save(product);
     }
 

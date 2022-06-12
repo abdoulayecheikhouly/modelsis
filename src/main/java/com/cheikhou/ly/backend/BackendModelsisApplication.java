@@ -26,6 +26,7 @@ public class BackendModelsisApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
+/*
 
         ProductType t1 = productService.addTypeProduct(new ProductType(null,"Smartphone", new ArrayList<>()));
         ProductType t2 = productService.addTypeProduct(new ProductType(null,"Laptop", new ArrayList<>()));
@@ -41,6 +42,7 @@ public class BackendModelsisApplication implements CommandLineRunner {
         userService.addNewUser(new User(null,"tall","penda","pen","pwd", new ArrayList<>()));
         userService.addNewUser(new User(null,"ba","iba","ibs","pwd", new ArrayList<>()));
 
+*/
 
 
         //userService.addRoleToUser("taf","ADMIN");
